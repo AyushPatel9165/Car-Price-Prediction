@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Car Price Prediction</h2>
+
+<form action="/predict" method="post">
+
+Year:<br>
+<input type="number" name="year"><br>
+
+KM Driven:<br>
+<input type="number" name="km_driven"><br>
+
+Seats:<br>
+<input type="number" name="seats"><br>
+
+Fuel:<br>
+<select name="fuel">
+<option>Petrol</option>
+<option>Diesel</option>
+</select><br>
+
+Seller Type:<br>
+<select name="seller_type">
+<option>Individual</option>
+<option>Dealer</option>
+</select><br>
+
+Transmission:<br>
+<select name="transmission">
+<option>Manual</option>
+<option>Automatic</option>
+</select><br>
+
+Owner:<br>
+<select name="owner">
+<option>First Owner</option>
+<option>Second Owner</option>
+<option>Third Owner</option>
+</select><br><br>
+
+<input type="submit" value="Predict">
+
+</form>
+
+</body>
+</html>
